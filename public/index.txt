@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="<%= BASE_URL %>favicon/cropped-favicon-32x32.png"
+      sizes="32x32"
+    />
+    <!-- All CSS is here
+	============================================ -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.js" />
+    <link rel="stylesheet" href="assets/css/vendor/pe-icon-7-stroke.css" />
+    <link rel="stylesheet" href="assets/css/vendor/themify-icons.css" />
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/animate.css" />
+    <link rel="stylesheet" href="assets/css/plugins/aos.css" />
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css" />
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/plugins/select2.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/easyzoom.css" />
+    <link rel="stylesheet" href="assets/css/plugins/slinky.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Ecommerce application</title>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/wow.js"></script>
+    <script src="assets/js/plugins/scrollup.js"></script>
+    <script src="assets/js/plugins/aos.js"></script>
+    <script src="assets/js/plugins/magnific-popup.js"></script>
+    <script src="assets/js/plugins/jquery.syotimer.min.js"></script>
+    <script src="assets/js/plugins/swiper.min.js"></script>
+    <script src="assets/js/plugins/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+    <script src="assets/js/plugins/jquery-ui.js"></script>
+    <script src="assets/js/plugins/jquery-ui-touch-punch.js"></script>
+    <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
+    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <script src="assets/js/plugins/jquery.counterup.js"></script>
+    <script src="assets/js/plugins/select2.min.js"></script>
+    <script src="assets/js/plugins/easyzoom.js"></script>
+    <script src="assets/js/plugins/slinky.min.js"></script>
+    <script src="assets/js/plugins/ajax-mail.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
