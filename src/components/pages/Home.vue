@@ -1,19 +1,16 @@
 <template>
-    <main-layout>
-        <HomeHeroSlider />
-        <HomeBannerOne />
-        <HomeProductOne />
-        <HomeBannerTwo />
-        <HomeService />
-        <HomeSingleProduct />
-        <HomeBannerThree />
-        <HomeProductsTwo />
-        <HomeNews />
-    </main-layout>
+    <HomeHeroSlider />
+    <HomeBannerOne />
+    <HomeProductOne />
+    <HomeBannerTwo />
+    <HomeService />
+    <HomeSingleProduct />
+    <HomeBannerThree />
+    <HomeProductsTwo />
+    <HomeNews />
 </template>
 
 <script setup>
-import MainLayout from '../layouts/MainLayout.vue'
 import HomeHeroSlider from '../layouts/sections/HomeHeroSlider.vue'
 import HomeBannerOne from '../layouts/sections/HomeBannerOne.vue'
 import HomeBannerTwo from '../layouts/sections/HomeBannerTwo.vue'

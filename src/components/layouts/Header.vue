@@ -5,7 +5,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/images/logo/logo.png" alt="logo" /></a>
+                            <RouterLink :to="{ name: 'home' }"><img src="assets/images/logo/logo.png" alt="logo" />
+                            </RouterLink>
                         </div>
                     </div>
                     <div class="col-lg-6 d-none d-lg-block d-flex justify-content-center">
@@ -13,33 +14,13 @@
                             <nav>
                                 <ul>
                                     <li>
-                                        <a href="index.html">HOME</a>
+                                        <RouterLink :to="{ name: 'home' }">Home</RouterLink>
                                     </li>
                                     <li>
                                         <a href="shop.html">SHOP</a>
                                     </li>
                                     <li>
-                                        <a href="#">PAGES</a>
-                                        <ul class="sub-menu-style">
-                                            <li><a href="about-us.html">about us </a></li>
-                                            <li><a href="cart.html">cart page</a></li>
-                                            <li><a href="checkout.html">checkout </a></li>
-                                            <li><a href="my-account.html">my account</a></li>
-                                            <li><a href="wishlist.html">wishlist </a></li>
-                                            <li><a href="compare.html">compare </a></li>
-                                            <li><a href="contact-us.html">contact us </a></li>
-                                            <li>
-                                                <a href="login-register.html">login / register </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
                                         <a href="blog.html">BLOG</a>
-                                        <ul class="sub-menu-style">
-                                            <li><a href="blog.html">blog standard </a></li>
-                                            <li><a href="blog-sidebar.html">blog sidebar</a></li>
-                                            <li><a href="blog-details.html">blog details</a></li>
-                                        </ul>
                                     </li>
                                     <li><a href="about-us.html">ABOUT</a></li>
                                     <li><a href="contact-us.html">CONTACT US</a></li>
@@ -130,6 +111,7 @@
 
 <script setup>
 import { onMounted } from 'vue';
+import { useRouter } from "vue-router";
 
 
 function miniCart() {
