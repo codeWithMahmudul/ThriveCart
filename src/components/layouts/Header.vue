@@ -5,7 +5,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="logo">
-                            <RouterLink :to="{ name: 'home' }"><img src="assets/images/logo/logo.png" alt="logo" />
+                            <RouterLink :to="{ name: 'home' }"><img src="/assets/images/logo/logo.png" alt="logo" />
                             </RouterLink>
                         </div>
                     </div>
@@ -17,13 +17,12 @@
                                         <RouterLink :to="{ name: 'home' }">Home</RouterLink>
                                     </li>
                                     <li>
-                                        <a href="shop.html">SHOP</a>
+                                        <RouterLink :to="{ name: 'shop' }">Shop</RouterLink>
                                     </li>
                                     <li>
-                                        <a href="blog.html">BLOG</a>
+                                        <RouterLink :to="{name: 'blog'}">BLOG</RouterLink>
                                     </li>
-                                    <li><a href="about-us.html">ABOUT</a></li>
-                                    <li><a href="contact-us.html">CONTACT US</a></li>
+                                    <li><RouterLink :to="{name: 'contactUs'}">CONTACT US</RouterLink></li>
                                 </ul>
                             </nav>
                         </div>
@@ -71,7 +70,7 @@
                     <ul>
                         <li>
                             <div class="cart-img">
-                                <a href="#"><img src="assets/images/cart/cart-1.jpg" alt="" /></a>
+                                <a href="#"><img src="/assets/images/cart/cart-1.jpg" alt="" /></a>
                             </div>
                             <div class="cart-title">
                                 <h4><a href="#">Stylish Swing Chair</a></h4>
@@ -83,7 +82,7 @@
                         </li>
                         <li>
                             <div class="cart-img">
-                                <a href="#"><img src="assets/images/cart/cart-2.jpg" alt="" /></a>
+                                <a href="#"><img src="/assets/images/cart/cart-2.jpg" alt="" /></a>
                             </div>
                             <div class="cart-title">
                                 <h4><a href="#">Modern Chairs</a></h4>
@@ -112,10 +111,10 @@
 <script setup>
 import { onMounted } from 'vue';
 import { useRouter } from "vue-router";
+import $ from 'jquery'
 
 
 function miniCart() {
-    console.log("Test")
     var navbarTrigger = $('.cart-active'),
         endTrigger = $('.cart-close'),
         container = $('.sidebar-cart-active'),
@@ -194,12 +193,12 @@ onMounted(() => {
         $button.parent().find("input").val(newVal);
     });
     /*------ ScrollUp -------- */
-    $.scrollUp({
-        scrollText: '<i class=" ti-arrow-up "></i>',
-        easingType: 'linear',
-        scrollSpeed: 900,
-        animation: 'fade'
-    });
+    // $.scrollUp({
+    //     scrollText: '<i class=" ti-arrow-up "></i>',
+    //     easingType: 'linear',
+    //     scrollSpeed: 900,
+    //     animation: 'fade'
+    // });
 })
 
 

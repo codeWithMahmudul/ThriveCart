@@ -9,7 +9,7 @@
                     <div class="blog-wrap mb-30" data-aos="fade-up" data-aos-delay="200">
                         <div class="blog-img-date-wrap mb-25">
                             <div class="blog-img">
-                                <a href="blog-details.html"><img src="assets/images/blog/blog-1.png" alt="" /></a>
+                                <a href="blog-details.html"><img src="/assets/images/blog/blog-1.png" alt="" /></a>
                             </div>
                             <div class="blog-date">
                                 <h5>05 <span>May</span></h5>
@@ -35,7 +35,7 @@
                     <div class="blog-wrap mb-30" data-aos="fade-up" data-aos-delay="400">
                         <div class="blog-img-date-wrap mb-25">
                             <div class="blog-img">
-                                <a href="blog-details.html"><img src="assets/images/blog/blog-2.png" alt="" /></a>
+                                <a href="blog-details.html"><img src="/assets/images/blog/blog-2.png" alt="" /></a>
                             </div>
                             <div class="blog-date">
                                 <h5>06 <span>May</span></h5>
@@ -61,7 +61,7 @@
                     <div class="blog-wrap mb-30" data-aos="fade-up" data-aos-delay="600">
                         <div class="blog-img-date-wrap mb-25">
                             <div class="blog-img">
-                                <a href="blog-details.html"><img src="assets/images/blog/blog-3.png" alt="" /></a>
+                                <a href="blog-details.html"><img src="/assets/images/blog/blog-3.png" alt="" /></a>
                             </div>
                             <div class="blog-date">
                                 <h5>07 <span>May</span></h5>

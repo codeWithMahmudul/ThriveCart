@@ -5,7 +5,7 @@
                 <div class="swiper-slide">
                     <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-1"
                         style="
-                  background-image: url(assets/images/slider/slider-bg-1.jpg);
+                  background-image: url(/assets/images/slider/slider-bg-1.jpg);
                 ">
                         <div class="container">
                             <div class="row align-items-center">
@@ -23,7 +23,7 @@
                                 <div class="col-lg-6 col-md-6">
                                     <div class="hero-slider-img-1 slider-animated-1">
                                         <img class="animated animated-slider-img-1"
-                                            src="assets/images/slider/slider-img-1.png" alt="" />
+                                            src="/assets/images/slider/slider-img-1.png" alt="" />
                                         <div class="product-offer animated">
                                             <h5>30% <span>Off</span></h5>
                                         </div>
@@ -36,7 +36,7 @@
                 <div class="swiper-slide">
                     <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-1"
                         style="
-                  background-image: url(assets/images/slider/slider-bg-1.jpg);
+                  background-image: url(/assets/images/slider/slider-bg-1.jpg);
                 ">
                         <div class="container">
                             <div class="row align-items-center">
@@ -54,7 +54,7 @@
                                 <div class="col-lg-6 col-md-6">
                                     <div class="hero-slider-img-1 slider-animated-1">
                                         <img class="animated animated-slider-img-1"
-                                            src="assets/images/slider/slider-img-1-2.png" alt="" />
+                                            src="/assets/images/slider/slider-img-1-2.png" alt="" />
                                         <div class="product-offer animated">
                                             <h5>30% <span>Off</span></h5>
                                         </div>

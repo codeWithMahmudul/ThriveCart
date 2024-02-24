@@ -1,7 +1,7 @@
 <template>
     <div class="banner-area pb-95" data-aos="fade-up" data-aos-delay="200">
         <div class="container">
-            <div class="bg-img bg-padding-1" style="background-image: url(assets/images/bg/bg-1.png)">
+            <div class="bg-img bg-padding-1" style="background-image: url(/assets/images/bg/bg-1.png)">
                 <div class="banner-content-4">
                     <h2>New Dining <br />Chair Set</h2>
                     <h3>Up To 30% Off</h3>
@@ -14,10 +14,8 @@
     </div>
 </template>
 
-<script>
-export default {
+<script setup>
 
-}
 </script>
 
 <style scoped></style>

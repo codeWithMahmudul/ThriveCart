@@ -5,7 +5,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30">
                         <div class="service-wrap" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-img">
-                                <img src="assets/images/icon-img/car.png" alt="" />
+                                <img src="/assets/images/icon-img/car.png" alt="" />
                             </div>
                             <div class="service-content">
                                 <h3>Free Shipping</h3>
@@ -16,7 +16,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30">
                         <div class="service-wrap" data-aos="fade-up" data-aos-delay="400">
                             <div class="service-img">
-                                <img src="assets/images/icon-img/time.png" alt="" />
+                                <img src="/assets/images/icon-img/time.png" alt="" />
                             </div>
                             <div class="service-content">
                                 <h3>Support 24/7</h3>
@@ -27,7 +27,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30">
                         <div class="service-wrap" data-aos="fade-up" data-aos-delay="600">
                             <div class="service-img">
-                                <img src="assets/images/icon-img/dollar.png" alt="" />
+                                <img src="/assets/images/icon-img/dollar.png" alt="" />
                             </div>
                             <div class="service-content">
                                 <h3>Money Return</h3>
@@ -38,7 +38,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 col-12 mb-30">
                         <div class="service-wrap" data-aos="fade-up" data-aos-delay="800">
                             <div class="service-img">
-                                <img src="assets/images/icon-img/discount.png" alt="" />
+                                <img src="/assets/images/icon-img/discount.png" alt="" />
                             </div>
                             <div class="service-content">
                                 <h3>Order Discount</h3>

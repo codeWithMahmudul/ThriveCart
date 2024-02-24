@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="home-single-product-img" data-aos="fade-up" data-aos-delay="200">
-                        <a href="product-details.html"><img src="assets/images/product/single-product.png" alt="" /></a>
+                        <a href="product-details.html"><img src="/assets/images/product/single-product.png" alt="" /></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">

@@ -1,6 +1,6 @@
 (function ($) {
-    "use strict";
-    
+    // "use strict";
+
     /*------ Timer active ----*/
     $('#timer-1-active').syotimer({
         year: 2022,
@@ -32,7 +32,7 @@
             }
         },
     });
-    
+
     // Category slider active 2
     var sliderActiveFive = new Swiper('.category-slider-active-2', {
         loop: true,
@@ -56,7 +56,7 @@
             }
         },
     });
-    
+
     // Product slider active 2
     var sliderActiveSix = new Swiper('.product-slider-active-2', {
         loop: true,
@@ -79,7 +79,7 @@
             }
         },
     });
-    
+
     // Testimonial active
     var sliderActiveSeven = new Swiper('.testimonial-active', {
         loop: true,
@@ -105,14 +105,14 @@
             }
         },
     });
-    
+
     /*----------------------------
-    	Cart Plus Minus Button
+        Cart Plus Minus Button
     ------------------------------ */
     var CartPlusMinus = $('.product-quality');
     CartPlusMinus.prepend('<div class="dec qtybutton">-</div>');
     CartPlusMinus.append('<div class="inc qtybutton">+</div>');
-    $(".qtybutton").on("click", function() {
+    $(".qtybutton").on("click", function () {
         var $button = $(this);
         var oldValue = $button.parent().find("input").val();
         if ($button.text() === "+") {
@@ -127,18 +127,18 @@
         }
         $button.parent().find("input").val(newVal);
     });
-    
+
     /*====== product-color-active ======*/
-    $(".product-color-active ul li a").on('click', function(e) {
+    $(".product-color-active ul li a").on('click', function (e) {
         e.preventDefault();
         $(".product-color-active ul li a").removeClass("active");
         $(this).addClass("active");
     });
-    
+
     /*--------------------------
         Isotope active 1
     ---------------------------- */
-    $('.grid').imagesLoaded(function() {
+    $('.grid').imagesLoaded(function () {
         // init Isotope
         $('.grid').isotope({
             itemSelector: '.grid-item',
@@ -150,189 +150,80 @@
             }
         });
     });
-    
+
     /*---------------------
         Price range
     --------------------- */
     var sliderrange = $('#slider-range');
     var amountprice = $('#amount');
-    $(function() {
+    $(function () {
         sliderrange.slider({
             range: true,
             min: 20,
             max: 200,
             values: [0, 160],
-            slide: function(event, ui) {
+            slide: function (event, ui) {
                 amountprice.val("$" + ui.values[0] + " - $" + ui.values[1]);
             }
         });
         amountprice.val("$" + sliderrange.slider("values", 0) +
             " - $" + sliderrange.slider("values", 1));
-    }); 
-    
+    });
+
     /* NiceSelect */
     $('.nice-select').niceSelect();
-    
+
     /*---- CounterUp ----*/
     $('.count').counterUp({
         delay: 10,
         time: 2000
     });
-    
+
     /*---------------------
         Select active
     --------------------- */
     $('.select-two-active').select2();
-    $(window).on('resize', function(){
+    $(window).on('resize', function () {
         $('.select-two-active').select2()
     });
-    
+
     /*--- checkout toggle function ----*/
-    $('.checkout-click1').on('click', function(e) {
+    $('.checkout-click1').on('click', function (e) {
         e.preventDefault();
         $('.checkout-login-info').slideToggle(900);
     });
-    
-    
+
+
     /*--- checkout toggle function ----*/
-    $('.checkout-click3').on('click', function(e) {
+    $('.checkout-click3').on('click', function (e) {
         e.preventDefault();
         $('.checkout-login-info3').slideToggle(1000);
     });
-    
+
     /*-------------------------
     Create an account toggle
     --------------------------*/
-    $('.checkout-toggle2').on('click', function() {
+    $('.checkout-toggle2').on('click', function () {
         $('.open-toggle2').slideToggle(1000);
     });
-    
-    $('.checkout-toggle').on('click', function() {
+
+    $('.checkout-toggle').on('click', function () {
         $('.open-toggle').slideToggle(1000);
     });
-    
+
     /*-------------------------
     checkout one click toggle function
     --------------------------*/
-    var checked = $( '.sin-payment input:checked' )
-    if(checked){
-        $(checked).siblings( '.payment-box' ).slideDown(900);
+    var checked = $('.sin-payment input:checked')
+    if (checked) {
+        $(checked).siblings('.payment-box').slideDown(900);
     };
-	 $( '.sin-payment input' ).on('change', function() {
-        $( '.payment-box' ).slideUp(900);
-        $(this).siblings( '.payment-box' ).slideToggle(900);
+    $('.sin-payment input').on('change', function () {
+        $('.payment-box').slideUp(900);
+        $(this).siblings('.payment-box').slideToggle(900);
     });
-    
-    // Instantiate EasyZoom instances
-    var $easyzoom = $('.easyzoom').easyZoom();
-    
-    /*----------------------------------------
-		Product details small img slider 1
-    -----------------------------------------*/
-    var productDetailsSmallOne = new Swiper('.product-details-small-img-slider-1', {
-        loop: false,
-        spaceBetween: 12,
-        slidesPerView: 4,
-        direction: 'vertical',
-        navigation: {
-            nextEl: '.pd-next',
-            prevEl: '.pd-prev',
-        },
-        breakpoints: {
-            0: {
-                slidesPerView: 2,
-            },
-            576: {
-                slidesPerView: 4,
-            },
-            992: {
-                slidesPerView: 3,
-            },
-            1200: {
-                slidesPerView: 4,
-            },
-        }
-    });
-    
-    /*----------------------------------------
-		Product details big img slider 1
-    -----------------------------------------*/
-    var productDetailsBigThree = new Swiper('.product-details-big-img-slider-1', {
-        autoplay: false,
-        delay: 5000,
-        slidesPerView: 1,
-        loop: false,
-        thumbs: {
-            swiper: productDetailsSmallOne
-        }
-    });
-    
-    /*----------------------------------------
-		Product details small img slider 2
-    -----------------------------------------*/ 
-    var productDetailsSmallTwo = new Swiper('.product-details-small-img-slider-2', {
-        loop: false,
-        spaceBetween: 20,
-        slidesPerView: 4,
-        navigation: {
-            nextEl: '.pd-next-2',
-            prevEl: '.pd-prev-2',
-        },
-        breakpoints: {
-            0: {
-                slidesPerView: 2,
-            },
-            479: {
-                slidesPerView: 3,
-            },
-            576: {
-                slidesPerView: 4,
-            },
-            992: {
-                slidesPerView: 3,
-            },
-            1200: {
-                slidesPerView: 4,
-            },
-        }
-    });
-    
-    /*----------------------------------------
-		Product details big img slider 2
-    -----------------------------------------*/
-    var productDetailsBigTwo = new Swiper('.product-details-big-img-slider-2', {
-        autoplay: false,
-        delay: 5000,
-        slidesPerView: 1,
-        loop: false,
-        thumbs: {
-            swiper: productDetailsSmallTwo
-        }
-    });
-    
-    // Related product active
-    var relatedProductActive = new Swiper('.related-product-active', {
-        loop: true,
-        spaceBetween: 30,
-        breakpoints: {
-            320: {
-                slidesPerView: 1
-            },
-            576: {
-                slidesPerView: 2
-            },
-            768: {
-                slidesPerView: 3
-            },
-            992: {
-                slidesPerView: 3
-            },
-            1200: {
-                slidesPerView: 4
-            }
-        },
-    });
-    
+
+
     /*-----------------------
         Image Popup active
     ------------------------*/
@@ -342,7 +233,7 @@
             enabled: true
         }
     });
-    
+
     /*-------------------------
       Scroll Animation
     --------------------------*/
@@ -350,5 +241,5 @@
         once: true,
         duration: 1000,
     });
-    
+
 })(jQuery);

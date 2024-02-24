@@ -19,7 +19,7 @@
                             <div class="product-wrap mb-35" data-aos="fade-up" data-aos-delay="200">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-5.png" alt="" />
+                                        <img src="/assets/images/product/product-5.png" alt="" />
                                     </a>
                                     <div class="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -54,7 +54,7 @@
                             <div class="product-wrap mb-35" data-aos="fade-up" data-aos-delay="400">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-6.png" alt="" />
+                                        <img src="/assets/images/product/product-6.png" alt="" />
                                     </a>
                                     <div class="product-action-wrap">
                                         <button class="product-action-btn-1" title="Wishlist">
@@ -85,7 +85,7 @@
                             <div class="product-wrap mb-35" data-aos="fade-up" data-aos-delay="600">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-7.png" alt="" />
+                                        <img src="/assets/images/product/product-7.png" alt="" />
                                     </a>
                                     <div class="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -120,7 +120,7 @@
                             <div class="product-wrap mb-35" data-aos="fade-up" data-aos-delay="800">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-4.png" alt="" />
+                                        <img src="/assets/images/product/product-4.png" alt="" />
                                     </a>
                                     <div class="product-action-wrap">
                                         <button class="product-action-btn-1" title="Wishlist">
@@ -151,7 +151,7 @@
                             <div class="product-wrap mb-35" data-aos="fade-up" data-aos-delay="200">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-8.png" alt="" />
+                                        <img src="/assets/images/product/product-8.png" alt="" />
                                     </a>
                                     <div class="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -186,7 +186,7 @@
                             <div class="product-wrap mb-35" data-aos="fade-up" data-aos-delay="400">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-2.png" alt="" />
+                                        <img src="/assets/images/product/product-2.png" alt="" />
                                     </a>
                                     <div class="product-action-wrap">
                                         <button class="product-action-btn-1" title="Wishlist">
@@ -217,7 +217,7 @@
                             <div class="product-wrap mb-35" data-aos="fade-up" data-aos-delay="600">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-3.png" alt="" />
+                                        <img src="/assets/images/product/product-3.png" alt="" />
                                     </a>
                                     <div class="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -252,7 +252,7 @@
                             <div class="product-wrap mb-35" data-aos="fade-up" data-aos-delay="800">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-9.png" alt="" />
+                                        <img src="/assets/images/product/product-9.png" alt="" />
                                     </a>
                                     <div class="product-action-wrap">
                                         <button class="product-action-btn-1" title="Wishlist">
@@ -287,7 +287,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-9.png" alt="" />
+                                        <img src="/assets/images/product/product-9.png" alt="" />
                                     </a>
                                     <div class="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -322,7 +322,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-8.png" alt="" />
+                                        <img src="/assets/images/product/product-8.png" alt="" />
                                     </a>
                                     <div class="product-action-wrap">
                                         <button class="product-action-btn-1" title="Wishlist">
@@ -353,7 +353,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-6.png" alt="" />
+                                        <img src="/assets/images/product/product-6.png" alt="" />
                                     </a>
                                     <div class="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -388,7 +388,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-7.png" alt="" />
+                                        <img src="/assets/images/product/product-7.png" alt="" />
                                     </a>
                                     <div class="product-action-wrap">
                                         <button class="product-action-btn-1" title="Wishlist">
@@ -419,7 +419,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-5.png" alt="" />
+                                        <img src="/assets/images/product/product-5.png" alt="" />
                                     </a>
                                     <div class="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -454,7 +454,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-4.png" alt="" />
+                                        <img src="/assets/images/product/product-4.png" alt="" />
                                     </a>
                                     <div class="product-action-wrap">
                                         <button class="product-action-btn-1" title="Wishlist">
@@ -485,7 +485,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-2.png" alt="" />
+                                        <img src="/assets/images/product/product-2.png" alt="" />
                                     </a>
                                     <div class="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -520,7 +520,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-1.png" alt="" />
+                                        <img src="/assets/images/product/product-1.png" alt="" />
                                     </a>
                                     <div class="product-action-wrap">
                                         <button class="product-action-btn-1" title="Wishlist">
@@ -555,7 +555,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-4.png" alt="" />
+                                        <img src="/assets/images/product/product-4.png" alt="" />
                                     </a>
                                     <div class="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -590,7 +590,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-3.png" alt="" />
+                                        <img src="/assets/images/product/product-3.png" alt="" />
                                     </a>
                                     <div class="product-action-wrap">
                                         <button class="product-action-btn-1" title="Wishlist">
@@ -621,7 +621,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-5.png" alt="" />
+                                        <img src="/assets/images/product/product-5.png" alt="" />
                                     </a>
                                     <div class="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -656,7 +656,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-2.png" alt="" />
+                                        <img src="/assets/images/product/product-2.png" alt="" />
                                     </a>
                                     <div class="product-action-wrap">
                                         <button class="product-action-btn-1" title="Wishlist">
@@ -687,7 +687,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-1.png" alt="" />
+                                        <img src="/assets/images/product/product-1.png" alt="" />
                                     </a>
                                     <div class="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -722,7 +722,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-8.png" alt="" />
+                                        <img src="/assets/images/product/product-8.png" alt="" />
                                     </a>
                                     <div class="product-action-wrap">
                                         <button class="product-action-btn-1" title="Wishlist">
@@ -753,7 +753,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-7.png" alt="" />
+                                        <img src="/assets/images/product/product-7.png" alt="" />
                                     </a>
                                     <div class="product-badge badge-top badge-right badge-pink">
                                         <span>-10%</span>
@@ -788,7 +788,7 @@
                             <div class="product-wrap mb-35">
                                 <div class="product-img img-zoom mb-25">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-6.png" alt="" />
+                                        <img src="/assets/images/product/product-6.png" alt="" />
                                     </a>
                                     <div class="product-action-wrap">
                                         <button class="product-action-btn-1" title="Wishlist">
