@@ -200,6 +200,12 @@ function mobileMainMenu() {
         container.removeClass('inside');
         wrapper.removeClass('overlay-active-2');
     });
+    $.scrollUp({
+        scrollText: '<i class=" ti-arrow-up "></i>',
+        easingType: 'linear',
+        scrollSpeed: 900,
+        animation: 'fade'
+    });
 };
 
 onMounted(() => {

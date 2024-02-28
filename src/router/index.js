@@ -6,6 +6,9 @@ const BlogSingle = () => import('../components/pages/BlogSingle.vue');
 const ProductDetails = () => import('../components/pages/ProductDetails.vue');
 const NotFound = () => import('../components/pages/NotFound.vue');
 const Home = () => import('../components/pages/Home.vue');
+const Account = () => import('../components/pages/Account.vue');
+const Cart = () => import('../components/pages/Cart.vue');
+const Checkout = () => import('../components/pages/Checkout.vue');
 
 const routes = [
     {
@@ -39,6 +42,21 @@ const routes = [
         path: '/blog/single',
         name: 'singleBlog',
         component: BlogSingle
+    },
+    {
+        path: '/account',
+        name: 'account',
+        component: Account
+    },
+    {
+        path: '/cart',
+        name: 'cart',
+        component: Cart
+    },
+    {
+        path: '/checkout',
+        name: 'checkout',
+        component: Checkout
     },
     {
         path: '/:pathMatch(.*)*',

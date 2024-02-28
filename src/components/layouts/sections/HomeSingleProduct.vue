@@ -18,12 +18,13 @@
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                             irure dolor in reprehenderit in voluptate
                         </p>
-                        <div class="product-color" data-aos="fade-up" data-aos-delay="800">
+                        <div class="product-color product-color-active product-details-color" data-aos="fade-up"
+                            data-aos-delay="800">
                             <span>Color :</span>
                             <ul>
                                 <li><a title="Pink" class="pink" href="#">pink</a></li>
                                 <li>
-                                    <a title="Yellow" class="yellow" href="#">yellow</a>
+                                    <a title="Yellow" class="yellow active" href="#">yellow</a>
                                 </li>
                                 <li>
                                     <a title="Purple" class="purple" href="#">purple</a>
@@ -51,10 +52,17 @@
     </div>
 </template>
 
-<script>
-export default {
+<script setup>
+import { onMounted } from "vue";
 
-}
+onMounted(() => {
+    $(".product-color-active ul li a").on('click', function (e) {
+        e.preventDefault();
+        $(".product-color-active ul li a").removeClass("active");
+        $(this).addClass("active");
+    });
+})
+
 </script>
 
 <style lang="scss" scoped></style>

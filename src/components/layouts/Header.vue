@@ -20,9 +20,11 @@
                                         <RouterLink :to="{ name: 'shop' }">Shop</RouterLink>
                                     </li>
                                     <li>
-                                        <RouterLink :to="{name: 'blog'}">BLOG</RouterLink>
+                                        <RouterLink :to="{ name: 'blog' }">BLOG</RouterLink>
                                     </li>
-                                    <li><RouterLink :to="{name: 'contactUs'}">CONTACT US</RouterLink></li>
+                                    <li>
+                                        <RouterLink :to="{ name: 'contactUs' }">CONTACT US</RouterLink>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -192,13 +194,6 @@ onMounted(() => {
         }
         $button.parent().find("input").val(newVal);
     });
-    /*------ ScrollUp -------- */
-    // $.scrollUp({
-    //     scrollText: '<i class=" ti-arrow-up "></i>',
-    //     easingType: 'linear',
-    //     scrollSpeed: 900,
-    //     animation: 'fade'
-    // });
 })
 
 
